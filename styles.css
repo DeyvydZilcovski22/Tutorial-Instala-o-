@@ -1,0 +1,88 @@
+/* Estilos básicos */
+body {
+    background-color: #0d0d0d; /* Fundo escuro estilo dark mode */
+    color: #e0e0e0; /* Texto branco suave */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #eeeeee; 
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    color: #c4c6c8; 
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #a9a9a9; 
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Links */
+a.link {
+    color: #1E90FF; 
+    text-decoration: none;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+
+p {
+    margin: 10px 0;
+    color: #dcdcdc;
+}
+
+/* Caixas de código */
+.code-box {
+    background-color: #0d1017; 
+    color: #dcdcdc;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    position: relative;
+    margin: 15px 0;
+}
+
+.code-box code {
+    display: block;
+    white-space: pre;
+    font-family: monospace;
+}
+
+/* Botão de copiar */
+.copy-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #ffffff; 
+    color: #1c1c1c; 
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.copy-btn:hover {
+    background-color: #f0f0f0; 
+  }
